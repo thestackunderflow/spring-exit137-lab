@@ -1,0 +1,32 @@
+{
+  "schema": "logcap.run.v1",
+  "scenario": "r-proof",
+  "source": "docker",
+  "command": [
+    "docker",
+    "compose",
+    "-f",
+    "compose.fix.yaml",
+    "up",
+    "app"
+  ],
+  "image": {
+    "ref": "exit137-app:1.0",
+    "id": "sha256:7feb55e0077c57ee60fc62b4a59738cfa417c2b84ae20085af4ce9d3f4fffb9b"
+  },
+  "versions": {
+    "springBoot": "4.1.1",
+    "java": "21.0.12.1"
+  },
+  "clock": "docker-daemon",
+  "t0": "2026-10-21T04:19:06.316579871Z",
+  "exitCode": 143,
+  "exitSource": "docker wait",
+  "finishedAt": "2026-10-21T04:19:14.520639792Z",
+  "tExitMs": 8204.06,
+  "tty": false,
+  "flags": [],
+  "redactions": [],
+  "lines": 24,
+  "sha256": "4ae0ec1279c6ce80774c7420f53f460601f1c39f7b755e829767ba18321fdde3"
+}

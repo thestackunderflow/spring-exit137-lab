@@ -1,0 +1,7 @@
+utc=2026-10-21T03:38:57Z free_ram_gb=7.6
+ogl-ollama-1	0.00%	164.8MiB / 13.65GiB
+hikari-lab-db-1	1.77%	35.74MiB / 13.65GiB
+hikari-lab-stub-1	0.06%	135MiB / 13.65GiB
+mcp-canvas-mcp-server-1	0.33%	102.1MiB / 8GiB
+mcp-canvas-web-1	0.00%	8.309MiB / 13.65GiB
+reframe	0.30%	36.33MiB / 13.65GiB

@@ -1,0 +1,7 @@
+{
+ "direct_mb": 128,
+ "P": 75,
+ "min_non_heap_kernel_mib": 109.4,
+ "needed_mib": 82.6,
+ "rule": "ceil16(768 - P% x 768 - min non-heap_kernel + 32), <= heap max"
+}

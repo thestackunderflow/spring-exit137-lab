@@ -1,0 +1,495 @@
+  symbol:   class DirectHold
+  location: class lab.ReportsTest
+[ERROR] /lab/src/test/java/lab/ReportsTest.java:[50,33] cannot find symbol
+  symbol:   variable MemInfo
+  location: class lab.ReportsTest
+[ERROR] /lab/src/test/java/lab/ReportsTest.java:[61,23] cannot find symbol
+  symbol:   variable Probe
+  location: class lab.ReportsTest
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.15.0:testCompile (default-testCompile) on project spring-exit137-lab: Compilation failure: Compilation failure: 
+[ERROR] /lab/src/test/java/lab/ReportsTest.java:[15,27] cannot find symbol
+[ERROR]   symbol:   class Reports
+[ERROR]   location: class lab.ReportsTest
+[ERROR] /lab/src/test/java/lab/ReportsTest.java:[23,27] cannot find symbol
+[ERROR]   symbol:   class Reports
+[ERROR]   location: class lab.ReportsTest
+[ERROR] /lab/src/test/java/lab/ReportsTest.java:[25,22] cannot find symbol
+[ERROR]   symbol:   variable Reports
+[ERROR]   location: class lab.ReportsTest
+[ERROR] /lab/src/test/java/lab/ReportsTest.java:[30,30] cannot find symbol
+[ERROR]   symbol:   class Reports
+[ERROR]   location: class lab.ReportsTest
+[ERROR] /lab/src/test/java/lab/ReportsTest.java:[36,24] cannot find symbol
+[ERROR]   symbol:   class Hold
+[ERROR]   location: class lab.ReportsTest
+[ERROR] /lab/src/test/java/lab/ReportsTest.java:[43,26] cannot find symbol
+[ERROR]   symbol:   class DirectHold
+[ERROR]   location: class lab.ReportsTest
+[ERROR] /lab/src/test/java/lab/ReportsTest.java:[50,33] cannot find symbol
+[ERROR]   symbol:   variable MemInfo
+[ERROR]   location: class lab.ReportsTest
+[ERROR] /lab/src/test/java/lab/ReportsTest.java:[61,23] cannot find symbol
+[ERROR]   symbol:   variable Probe
+[ERROR]   location: class lab.ReportsTest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+test_disturbed_runs_were_rerun (test_lab.SweepTable.test_disturbed_runs_were_rerun) ... ok
+test_killed_cells_show_limit_reached_not_peak (test_lab.SweepTable.test_killed_cells_show_limit_reached_not_peak) ... ERROR
+test_sweep_csv_has_every_cell (test_lab.SweepTable.test_sweep_csv_has_every_cell) ... ERROR
+test_env_recorded (test_lab.T0Environment.test_env_recorded) ... ERROR
+test_images_resolve_to_pinned_digests (test_lab.T0Environment.test_images_resolve_to_pinned_digests) ... ERROR
+test_kernel_line_if_captured (test_lab.T10Dmesg.test_kernel_line_if_captured) ... skipped 'T10 optional: dmesg not captured'
+test_j2_exits_3 (test_lab.T11JavaOome.test_j2_exits_3) ... ERROR
+test_j_logs_and_keeps_running (test_lab.T11JavaOome.test_j_logs_and_keeps_running) ... ERROR
+test_r_proof (test_lab.T12Proof.test_r_proof) ... ERROR
+test_cgroup_v2_and_limits_in_every_run (test_lab.T1Cgroup.test_cgroup_v2_and_limits_in_every_run) ... ERROR
+test_starter_webmvc_not_web (test_lab.T2Versions.test_starter_webmvc_not_web) ... ERROR
+test_startup_log_versions (test_lab.T2Versions.test_startup_log_versions) ... ERROR
+test_bug_cell_killed_5_of_5 (test_lab.T3Calibration.test_bug_cell_killed_5_of_5) ... ERROR
+test_d_outcome_recorded (test_lab.T3Calibration.test_d_outcome_recorded) ... FAIL
+test_gc_is_serial (test_lab.T3Calibration.test_gc_is_serial) ... ERROR
+test_load_env_frozen (test_lab.T3Calibration.test_load_env_frozen) ... ERROR
+test_container_seen (test_lab.T4Ergonomics.test_container_seen) ... ERROR
+test_max_heap_size_per_variant (test_lab.T4Ergonomics.test_max_heap_size_per_variant) ... ERROR
+test_serial_gc_selected (test_lab.T4Ergonomics.test_serial_gc_selected) ... ERROR
+test_b_full_survives_5_of_5_under_90_percent (test_lab.T5Fix.test_b_full_survives_5_of_5_under_90_percent) ... FAIL
+test_b_survives_5_of_5 (test_lab.T5Fix.test_b_survives_5_of_5) ... FAIL
+test_nmt_split_captured (test_lab.T5Fix.test_nmt_split_captured) ... FAIL
+test_p_from_kernel_counted_non_heap (test_lab.T5Fix.test_p_from_kernel_counted_non_heap) ... ERROR
+test_swap_cell_recorded (test_lab.T6Swap.test_swap_cell_recorded) ... ERROR
+test_r_oom (test_lab.T7CardIsTheFileTheRunRead.test_r_oom) ... ERROR
+test_r_proof (test_lab.T7CardIsTheFileTheRunRead.test_r_proof) ... ERROR
+test_r_oom (test_lab.T8WhoKilled.test_r_oom) ... ERROR
+test_s_kill (test_lab.T8WhoKilled.test_s_kill) ... ERROR
+test_s_stop (test_lab.T8WhoKilled.test_s_stop) ... ERROR
+test_who_killed_table (test_lab.T8WhoKilled.test_who_killed_table) ... ERROR
+test_tail_recorded (test_lab.T8bTail.test_tail_recorded) ... ERROR
+test_every_bug_rep_has_oom_and_no_kill (test_lab.T9EventOrder.test_every_bug_rep_has_oom_and_no_kill) ... ERROR
+test_oom_before_die (test_lab.T9EventOrder.test_oom_before_die) ... ERROR
+test_stop_order (test_lab.T9EventOrder.test_stop_order) ... ERROR
+test_bug_and_fix_differ_in_one_row_same_column (test_video_panels.T13ComposeCards.test_bug_and_fix_differ_in_one_row_same_column) ... ERROR
+test_every_panel_line_is_in_its_sources (test_video_panels.T14PanelsFromEvidence.test_every_panel_line_is_in_its_sources) ... ERROR
+test_rows_fit (test_video_panels.T14PanelsFromEvidence.test_rows_fit) ... ERROR
+
+======================================================================
+ERROR: test_killed_cells_show_limit_reached_not_peak (test_lab.SweepTable.test_killed_cells_show_limit_reached_not_peak)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 319, in test_killed_cells_show_limit_reached_not_peak
+    with open(p('out', 'sweep-table.txt'), encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/out/sweep-table.txt'
+
+======================================================================
+ERROR: test_sweep_csv_has_every_cell (test_lab.SweepTable.test_sweep_csv_has_every_cell)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 311, in test_sweep_csv_has_every_cell
+    with open(p('out', 'sweep.csv'), encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/out/sweep.csv'
+
+======================================================================
+ERROR: test_env_recorded (test_lab.T0Environment.test_env_recorded)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 70, in test_env_recorded
+    env = jload('out', 'env.json')
+  File "/lab/tests/test_lab.py", line 24, in jload
+    with open(p(*parts), encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/out/env.json'
+
+======================================================================
+ERROR: test_images_resolve_to_pinned_digests (test_lab.T0Environment.test_images_resolve_to_pinned_digests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 77, in test_images_resolve_to_pinned_digests
+    env = jload('out', 'env.json')
+  File "/lab/tests/test_lab.py", line 24, in jload
+    with open(p(*parts), encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/out/env.json'
+
+======================================================================
+ERROR: test_j2_exits_3 (test_lab.T11JavaOome.test_j2_exits_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 288, in test_j2_exits_3
+    r = run('j2')
+  File "/lab/tests/test_lab.py", line 44, in run
+    return jload('evidence', 'runs', name, 'result.json')
+  File "/lab/tests/test_lab.py", line 24, in jload
+    with open(p(*parts), encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/evidence/runs/j2/result.json'
+
+======================================================================
+ERROR: test_j_logs_and_keeps_running (test_lab.T11JavaOome.test_j_logs_and_keeps_running)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 281, in test_j_logs_and_keeps_running
+    r = run('j')
+  File "/lab/tests/test_lab.py", line 44, in run
+    return jload('evidence', 'runs', name, 'result.json')
+  File "/lab/tests/test_lab.py", line 24, in jload
+    with open(p(*parts), encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/evidence/runs/j/result.json'
+
+======================================================================
+ERROR: test_r_proof (test_lab.T12Proof.test_r_proof)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 297, in test_r_proof
+    r = run('r-proof')
+  File "/lab/tests/test_lab.py", line 44, in run
+    return jload('evidence', 'runs', name, 'result.json')
+  File "/lab/tests/test_lab.py", line 24, in jload
+    with open(p(*parts), encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/evidence/runs/r-proof/result.json'
+
+======================================================================
+ERROR: test_cgroup_v2_and_limits_in_every_run (test_lab.T1Cgroup.test_cgroup_v2_and_limits_in_every_run)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 86, in test_cgroup_v2_and_limits_in_every_run
+    self.assertEqual(jload('out', 'basics.json')['cgroup_fs'], 'cgroup2fs')
+                     ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/lab/tests/test_lab.py", line 24, in jload
+    with open(p(*parts), encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/out/basics.json'
+
+======================================================================
+ERROR: test_starter_webmvc_not_web (test_lab.T2Versions.test_starter_webmvc_not_web)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 101, in test_starter_webmvc_not_web
+    tree = text('out', 'dependency-tree.txt')
+  File "/lab/tests/test_lab.py", line 29, in text
+    with open(p(*parts), encoding='utf-8', errors='replace') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/out/dependency-tree.txt'
+
+======================================================================
+ERROR: test_startup_log_versions (test_lab.T2Versions.test_startup_log_versions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 106, in test_startup_log_versions
+    log = text('evidence', 'runs', 'r-oom', 'stdout.txt')
+  File "/lab/tests/test_lab.py", line 29, in text
+    with open(p(*parts), encoding='utf-8', errors='replace') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/evidence/runs/r-oom/stdout.txt'
+
+======================================================================
+ERROR: test_bug_cell_killed_5_of_5 (test_lab.T3Calibration.test_bug_cell_killed_5_of_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 122, in test_bug_cell_killed_5_of_5
+    bug = jload('out', 'bug.json')
+  File "/lab/tests/test_lab.py", line 24, in jload
+    with open(p(*parts), encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/out/bug.json'
+
+======================================================================
+ERROR: test_gc_is_serial (test_lab.T3Calibration.test_gc_is_serial)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 119, in test_gc_is_serial
+    self.assertEqual(jload('out', 'bug.json')['gc'], 'serial')
+                     ~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/lab/tests/test_lab.py", line 24, in jload
+    with open(p(*parts), encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/out/bug.json'
+
+======================================================================
+ERROR: test_load_env_frozen (test_lab.T3Calibration.test_load_env_frozen)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 114, in test_load_env_frozen
+    env = dict(l.split('=', 1) for l in text('load.env').split() if '=' in l)
+                                        ~~~~^^^^^^^^^^^^
+  File "/lab/tests/test_lab.py", line 29, in text
+    with open(p(*parts), encoding='utf-8', errors='replace') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/load.env'
+
+======================================================================
+ERROR: test_container_seen (test_lab.T4Ergonomics.test_container_seen)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 139, in test_container_seen
+    s = text('evidence', 't4', 'a2-system.txt')
+  File "/lab/tests/test_lab.py", line 29, in text
+    with open(p(*parts), encoding='utf-8', errors='replace') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/evidence/t4/a2-system.txt'
+
+======================================================================
+ERROR: test_max_heap_size_per_variant (test_lab.T4Ergonomics.test_max_heap_size_per_variant)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 144, in test_max_heap_size_per_variant
+    b = jload('out', 'basics.json')['max_heap_size']
+        ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/lab/tests/test_lab.py", line 24, in jload
+    with open(p(*parts), encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/out/basics.json'
+
+======================================================================
+ERROR: test_serial_gc_selected (test_lab.T4Ergonomics.test_serial_gc_selected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 152, in test_serial_gc_selected
+    self.assertTrue(all(jload('out', 'basics.json')['use_serial_gc'].values()))
+                        ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/lab/tests/test_lab.py", line 24, in jload
+    with open(p(*parts), encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/out/basics.json'
+
+======================================================================
+ERROR: test_p_from_kernel_counted_non_heap (test_lab.T5Fix.test_p_from_kernel_counted_non_heap)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 157, in test_p_from_kernel_counted_non_heap
+    fx = jload('out', 'fix.json')
+  File "/lab/tests/test_lab.py", line 24, in jload
+    with open(p(*parts), encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/out/fix.json'
+
+======================================================================
+ERROR: test_swap_cell_recorded (test_lab.T6Swap.test_swap_cell_recorded)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 186, in test_swap_cell_recorded
+    r = run('a-swap')
+  File "/lab/tests/test_lab.py", line 44, in run
+    return jload('evidence', 'runs', name, 'result.json')
+  File "/lab/tests/test_lab.py", line 24, in jload
+    with open(p(*parts), encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/evidence/runs/a-swap/result.json'
+
+======================================================================
+ERROR: test_r_oom (test_lab.T7CardIsTheFileTheRunRead.test_r_oom)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 203, in test_r_oom
+    self.check('r-oom', 'compose.bug.yaml')
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lab/tests/test_lab.py", line 194, in check
+    first = text('evidence', 'runs', name, 'stderr.txt').splitlines()[0]
+            ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lab/tests/test_lab.py", line 29, in text
+    with open(p(*parts), encoding='utf-8', errors='replace') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/evidence/runs/r-oom/stderr.txt'
+
+======================================================================
+ERROR: test_r_proof (test_lab.T7CardIsTheFileTheRunRead.test_r_proof)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 206, in test_r_proof
+    self.check('r-proof', 'compose.fix.yaml')
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lab/tests/test_lab.py", line 194, in check
+    first = text('evidence', 'runs', name, 'stderr.txt').splitlines()[0]
+            ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lab/tests/test_lab.py", line 29, in text
+    with open(p(*parts), encoding='utf-8', errors='replace') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/evidence/runs/r-proof/stderr.txt'
+
+======================================================================
+ERROR: test_r_oom (test_lab.T8WhoKilled.test_r_oom)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 211, in test_r_oom
+    r = run('r-oom')
+  File "/lab/tests/test_lab.py", line 44, in run
+    return jload('evidence', 'runs', name, 'result.json')
+  File "/lab/tests/test_lab.py", line 24, in jload
+    with open(p(*parts), encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/evidence/runs/r-oom/result.json'
+
+======================================================================
+ERROR: test_s_kill (test_lab.T8WhoKilled.test_s_kill)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 233, in test_s_kill
+    r = run('s-kill')
+  File "/lab/tests/test_lab.py", line 44, in run
+    return jload('evidence', 'runs', name, 'result.json')
+  File "/lab/tests/test_lab.py", line 24, in jload
+    with open(p(*parts), encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/evidence/runs/s-kill/result.json'
+
+======================================================================
+ERROR: test_s_stop (test_lab.T8WhoKilled.test_s_stop)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 224, in test_s_stop
+    r = run('s-stop')
+  File "/lab/tests/test_lab.py", line 44, in run
+    return jload('evidence', 'runs', name, 'result.json')
+  File "/lab/tests/test_lab.py", line 24, in jload
+    with open(p(*parts), encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/evidence/runs/s-stop/result.json'
+
+======================================================================
+ERROR: test_who_killed_table (test_lab.T8WhoKilled.test_who_killed_table)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 240, in test_who_killed_table
+    with open(p('out', 'who-killed.csv'), encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/out/who-killed.csv'
+
+======================================================================
+ERROR: test_tail_recorded (test_lab.T8bTail.test_tail_recorded)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 251, in test_tail_recorded
+    r = run('r-oom')
+  File "/lab/tests/test_lab.py", line 44, in run
+    return jload('evidence', 'runs', name, 'result.json')
+  File "/lab/tests/test_lab.py", line 24, in jload
+    with open(p(*parts), encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/evidence/runs/r-oom/result.json'
+
+======================================================================
+ERROR: test_every_bug_rep_has_oom_and_no_kill (test_lab.T9EventOrder.test_every_bug_rep_has_oom_and_no_kill)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 266, in test_every_bug_rep_has_oom_and_no_kill
+    for r in results(bug_cell()):
+                     ~~~~~~~~^^
+  File "/lab/tests/test_lab.py", line 60, in bug_cell
+    return jload('out', 'bug.json')['bug_variant']
+           ~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/lab/tests/test_lab.py", line 24, in jload
+    with open(p(*parts), encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/out/bug.json'
+
+======================================================================
+ERROR: test_oom_before_die (test_lab.T9EventOrder.test_oom_before_die)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 258, in test_oom_before_die
+    a = actions(run('r-oom'))
+                ~~~^^^^^^^^^
+  File "/lab/tests/test_lab.py", line 44, in run
+    return jload('evidence', 'runs', name, 'result.json')
+  File "/lab/tests/test_lab.py", line 24, in jload
+    with open(p(*parts), encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/evidence/runs/r-oom/result.json'
+
+======================================================================
+ERROR: test_stop_order (test_lab.T9EventOrder.test_stop_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 262, in test_stop_order
+    a = [(e['action'], e['attrs'].get('signal')) for e in run('s-stop')['events'] if e['action'] in ('kill', 'die')]
+                                                          ~~~^^^^^^^^^^
+  File "/lab/tests/test_lab.py", line 44, in run
+    return jload('evidence', 'runs', name, 'result.json')
+  File "/lab/tests/test_lab.py", line 24, in jload
+    with open(p(*parts), encoding='utf-8') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/evidence/runs/s-stop/result.json'
+
+======================================================================
+ERROR: test_bug_and_fix_differ_in_one_row_same_column (test_video_panels.T13ComposeCards.test_bug_and_fix_differ_in_one_row_same_column)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_video_panels.py", line 40, in test_bug_and_fix_differ_in_one_row_same_column
+    b = read('compose.fix.yaml').splitlines()
+        ~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/lab/tests/test_video_panels.py", line 15, in read
+    with open(os.path.join(ROOT, rel), encoding='utf-8', errors='replace') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/compose.fix.yaml'
+
+======================================================================
+ERROR: test_every_panel_line_is_in_its_sources (test_video_panels.T14PanelsFromEvidence.test_every_panel_line_is_in_its_sources)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_video_panels.py", line 21, in setUp
+    self.sources = json.loads(read('video/panel-sources.json'))
+                              ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lab/tests/test_video_panels.py", line 15, in read
+    with open(os.path.join(ROOT, rel), encoding='utf-8', errors='replace') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/video/panel-sources.json'
+
+======================================================================
+ERROR: test_rows_fit (test_video_panels.T14PanelsFromEvidence.test_rows_fit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_video_panels.py", line 21, in setUp
+    self.sources = json.loads(read('video/panel-sources.json'))
+                              ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lab/tests/test_video_panels.py", line 15, in read
+    with open(os.path.join(ROOT, rel), encoding='utf-8', errors='replace') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/lab/video/panel-sources.json'
+
+======================================================================
+FAIL: test_d_outcome_recorded (test_lab.T3Calibration.test_d_outcome_recorded)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 132, in test_d_outcome_recorded
+    self.assertEqual(len(rs), REPS)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+AssertionError: 0 != 5
+
+======================================================================
+FAIL: test_b_full_survives_5_of_5_under_90_percent (test_lab.T5Fix.test_b_full_survives_5_of_5_under_90_percent)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 166, in test_b_full_survives_5_of_5_under_90_percent
+    self.assertEqual(len(rs), REPS)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+AssertionError: 0 != 5
+
+======================================================================
+FAIL: test_b_survives_5_of_5 (test_lab.T5Fix.test_b_survives_5_of_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 173, in test_b_survives_5_of_5
+    self.assertEqual(len(rs), REPS)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+AssertionError: 0 != 5
+
+======================================================================
+FAIL: test_nmt_split_captured (test_lab.T5Fix.test_nmt_split_captured)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/lab/tests/test_lab.py", line 177, in test_nmt_split_captured
+    self.assertTrue(glob.glob(p('evidence', 'runs', 'b-full', 'rep*', 'nmt.txt')))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [] is not true
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.104s
+
+FAILED (failures=4, errors=31, skipped=1)

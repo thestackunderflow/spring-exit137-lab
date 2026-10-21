@@ -1,0 +1,10 @@
+# The load generator, on the lab network (never through a published host port).
+name: exit137-load
+services:
+  oha:
+    image: ghcr.io/hatoo/oha:1.16.0@sha256:3ec3dbf549ea197793482d47a6324797411406bbf438c2fe8b91f244ec641a2f
+    networks: [lab]
+networks:
+  lab:
+    name: exit137-net
+    external: true

@@ -1,0 +1,1 @@
+oha -n 2000 -c 8 --no-tui http://app:8080/report?mb=4

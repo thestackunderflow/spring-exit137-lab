@@ -1,0 +1,16 @@
+# Every sweep cell: the same service as compose.bug.yaml / compose.fix.yaml, flags from the environment
+# (scripts/cell.sh sets JAVA_OPTS, LAB_PROBE). The two files the video shows are compose.bug.yaml and compose.fix.yaml.
+name: exit137
+services:
+  app:
+    image: exit137-app:1.0
+    mem_limit: 768m
+    memswap_limit: 768m
+    restart: "no"
+    environment:
+      JAVA_TOOL_OPTIONS: "${JAVA_OPTS}"
+      LAB_PROBE: "${LAB_PROBE:-false}"
+    networks: [lab]
+networks:
+  lab:
+    name: exit137-net

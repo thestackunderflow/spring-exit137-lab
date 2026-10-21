@@ -1,0 +1,1 @@
+Memory cgroup out of memory: Killed process 7606 (java)

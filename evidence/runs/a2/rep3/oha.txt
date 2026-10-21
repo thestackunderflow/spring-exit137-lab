@@ -1,0 +1,47 @@
+Summary:
+  Success rate:	18.55%
+  Total:	360.6068 ms
+  Slowest:	60.2558 ms
+  Fastest:	0.7301 ms
+  Average:	6.3930 ms
+  Requests/sec:	5546.2068
+
+  Total data:	1.81 KiB
+  Size/request:	5 B
+  Size/sec:	5.02 KiB
+
+Response time histogram:
+   0.730 ms [1]   |
+   6.683 ms [306] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  12.635 ms [3]   |
+  18.588 ms [5]   |
+  24.540 ms [25]  |■■
+  30.493 ms [15]  |■
+  36.446 ms [0]   |
+  42.398 ms [8]   |
+  48.351 ms [0]   |
+  54.303 ms [0]   |
+  60.256 ms [8]   |
+
+Response time distribution:
+  10.00% in 1.0110 ms
+  25.00% in 1.2029 ms
+  50.00% in 1.7241 ms
+  75.00% in 2.5466 ms
+  90.00% in 23.9717 ms
+  95.00% in 29.9271 ms
+  99.00% in 57.1540 ms
+  99.90% in 60.2558 ms
+  99.99% in 60.2558 ms
+
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.1582 ms, 0.0791 ms, 0.2732 ms
+  DNS-lookup:	0.0472 ms, 0.0298 ms, 0.0980 ms
+
+Status code distribution:
+  [200] 371 responses
+
+Error distribution:
+  [1621] Connection refused (os error 111)
+  [8] connection closed before message completed

@@ -1,0 +1,22 @@
+{
+ "bug_variant": "a2",
+ "reason": "A killed 0/5, A2 killed 5/5: use A2 (stop rule)",
+ "killed": {
+  "a": 0,
+  "a2": 5
+ },
+ "d_outcomes": [
+  "survived",
+  "survived",
+  "survived",
+  "survived",
+  "survived"
+ ],
+ "gc": "serial",
+ "load": [
+  "K=16",
+  "MB=4",
+  "N=2000",
+  "C=8"
+ ]
+}

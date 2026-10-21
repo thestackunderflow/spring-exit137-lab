@@ -1,0 +1,92 @@
+{
+ "cell": "s-kill",
+ "rep": "s-kill",
+ "run_dir": "evidence/runs/s-kill",
+ "mode": "kill",
+ "session": "captures-20261021T041808Z",
+ "compose_file": "compose.fix.yaml",
+ "java_tool_options": "-XX:MaxRAMPercentage=75",
+ "exit_code": 137,
+ "oom_killed": false,
+ "started_at": "2026-10-21T04:18:52.054377941Z",
+ "finished_at": "2026-10-21T04:18:57.932323794Z",
+ "running_after_load": false,
+ "oom_killed_after_load": null,
+ "outcome": "other",
+ "limit_reached": false,
+ "events": [
+  {
+   "action": "create",
+   "attrs": {},
+   "timeNano": 1792556331950417181
+  },
+  {
+   "action": "attach",
+   "attrs": {},
+   "timeNano": 1792556331983022533
+  },
+  {
+   "action": "start",
+   "attrs": {},
+   "timeNano": 1792556332181058209
+  },
+  {
+   "action": "kill",
+   "attrs": {
+    "signal": "9"
+   },
+   "timeNano": 1792556337925968635
+  },
+  {
+   "action": "die",
+   "attrs": {
+    "exitCode": "137"
+   },
+   "timeNano": 1792556338072046790
+  }
+ ],
+ "oha": {
+  "status": {},
+  "errors": {},
+  "success_rate": null
+ },
+ "oha_cmd": "docker kill exit137-app-1",
+ "mem_ready": {
+  "maxMemory": 583860224,
+  "totalMemory": 20799488,
+  "freeMemory": 3293328,
+  "memory.current": "140722176",
+  "memory.max": "805306368",
+  "memory.peak": "140722176",
+  "memory.swap.max": "0",
+  "memory.swap.current": "0",
+  "memory.events": {
+   "low": "0",
+   "high": "0",
+   "max": "0",
+   "oom": "0",
+   "oom_kill": "0",
+   "oom_group_kill": "0"
+  }
+ },
+ "mem_after": null,
+ "memory_peak_bytes": null,
+ "probe_max_cgroup_mib": null,
+ "probe_max_heap_used_mib": null,
+ "probe_max_old_mib": null,
+ "probe_samples": 0,
+ "java_oome_lines": 0,
+ "last_line": "2026-10-21T04:18:54.526Z  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms",
+ "last_line_ts": "2026-10-21T04:18:54.526321+00:00",
+ "tail_s": 3.406,
+ "compose_exit_line": "\u001b[Kapp-1 exited with code 137",
+ "ps_status": "exit137-app-1   Exited (137) Less than a second ago",
+ "stop_seconds": null,
+ "running_10s_after_oome": null,
+ "hold_status": null,
+ "free_ram_gb_before": 10.6,
+ "free_ram_gb_after": 10.6,
+ "other_cpu_pct_before": 3.8,
+ "other_cpu_pct_after": 3.4,
+ "disturbed": false
+}

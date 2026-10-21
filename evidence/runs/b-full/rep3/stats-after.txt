@@ -1,0 +1,7 @@
+utc=2026-10-21T04:10:41Z free_ram_gb=11.1
+hl-app	457.28%	242.1MiB / 1.5GiB
+hikari-lab-db-1	7.14%	72.35MiB / 13.65GiB
+hikari-lab-stub-1	0.08%	151.9MiB / 13.65GiB
+mcp-canvas-mcp-server-1	0.53%	107.9MiB / 8GiB
+mcp-canvas-web-1	0.00%	8.566MiB / 13.65GiB
+reframe	1.64%	35.69MiB / 13.65GiB

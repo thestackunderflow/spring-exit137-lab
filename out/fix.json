@@ -1,0 +1,83 @@
+{
+ "P": 75,
+ "non_heap_kernel_mib": [
+  109.4,
+  110.5,
+  110.2,
+  110.8,
+  109.6,
+  111.8,
+  113.4,
+  112.2
+ ],
+ "max_non_heap_kernel_mib": 113.4,
+ "inequality": "75% x 768 + 113.4 + 76.8 = 766.2 <= 768",
+ "rule": "P = largest multiple of 5 with P% x 768 + max non-heap_kernel + 10% x 768 <= 768 (PLAN rev. 2 T5)",
+ "runs": [
+  {
+   "run": "evidence/runs/b-full/rep1",
+   "outcome": "survived",
+   "peak_bytes": 718696448,
+   "heap_committed_bytes": 603979776,
+   "java_tool_options": "-XX:MaxRAMPercentage=75 -XX:InitialRAMPercentage=75 -XX:+AlwaysPreTouch -XX:NativeMemoryTracking=summary -XX:+UnlockDiagnosticVMOptions -XX:+PrintNMTStatistics",
+   "non_heap_kernel_mib": 109.4
+  },
+  {
+   "run": "evidence/runs/b-full/rep2",
+   "outcome": "survived",
+   "peak_bytes": 719876096,
+   "heap_committed_bytes": 603979776,
+   "java_tool_options": "-XX:MaxRAMPercentage=75 -XX:InitialRAMPercentage=75 -XX:+AlwaysPreTouch -XX:NativeMemoryTracking=summary -XX:+UnlockDiagnosticVMOptions -XX:+PrintNMTStatistics",
+   "non_heap_kernel_mib": 110.5
+  },
+  {
+   "run": "evidence/runs/b-full/rep3",
+   "outcome": "survived",
+   "peak_bytes": 719499264,
+   "heap_committed_bytes": 603979776,
+   "java_tool_options": "-XX:MaxRAMPercentage=75 -XX:InitialRAMPercentage=75 -XX:+AlwaysPreTouch -XX:NativeMemoryTracking=summary -XX:+UnlockDiagnosticVMOptions -XX:+PrintNMTStatistics",
+   "non_heap_kernel_mib": 110.2
+  },
+  {
+   "run": "evidence/runs/b-full/rep4",
+   "outcome": "survived",
+   "peak_bytes": 720138240,
+   "heap_committed_bytes": 603979776,
+   "java_tool_options": "-XX:MaxRAMPercentage=75 -XX:InitialRAMPercentage=75 -XX:+AlwaysPreTouch -XX:NativeMemoryTracking=summary -XX:+UnlockDiagnosticVMOptions -XX:+PrintNMTStatistics",
+   "non_heap_kernel_mib": 110.8
+  },
+  {
+   "run": "evidence/runs/b-full/rep5",
+   "outcome": "survived",
+   "peak_bytes": 718864384,
+   "heap_committed_bytes": 603979776,
+   "java_tool_options": "-XX:MaxRAMPercentage=75 -XX:InitialRAMPercentage=75 -XX:+AlwaysPreTouch -XX:NativeMemoryTracking=summary -XX:+UnlockDiagnosticVMOptions -XX:+PrintNMTStatistics",
+   "non_heap_kernel_mib": 109.6
+  },
+  {
+   "run": "evidence/runs/t5-p50/rep1",
+   "outcome": "survived",
+   "peak_bytes": 519884800,
+   "heap_committed_bytes": 402653184,
+   "java_tool_options": "-XX:MaxRAMPercentage=50 -XX:InitialRAMPercentage=50 -XX:+AlwaysPreTouch -XX:NativeMemoryTracking=summary -XX:+UnlockDiagnosticVMOptions -XX:+PrintNMTStatistics",
+   "non_heap_kernel_mib": 111.8
+  },
+  {
+   "run": "evidence/runs/t5-p50/rep2",
+   "outcome": "survived",
+   "peak_bytes": 521568256,
+   "heap_committed_bytes": 402653184,
+   "java_tool_options": "-XX:MaxRAMPercentage=50 -XX:InitialRAMPercentage=50 -XX:+AlwaysPreTouch -XX:NativeMemoryTracking=summary -XX:+UnlockDiagnosticVMOptions -XX:+PrintNMTStatistics",
+   "non_heap_kernel_mib": 113.4
+  },
+  {
+   "run": "evidence/runs/t5-p50/rep3",
+   "outcome": "survived",
+   "peak_bytes": 520318976,
+   "heap_committed_bytes": 402653184,
+   "java_tool_options": "-XX:MaxRAMPercentage=50 -XX:InitialRAMPercentage=50 -XX:+AlwaysPreTouch -XX:NativeMemoryTracking=summary -XX:+UnlockDiagnosticVMOptions -XX:+PrintNMTStatistics",
+   "non_heap_kernel_mib": 112.2
+  }
+ ],
+ "b_full_5_of_5": true
+}

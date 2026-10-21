@@ -1,0 +1,28 @@
+{
+ "source": "evidence/runs/b-full/rep1/stdout.txt",
+ "categories_bytes": {
+  "Class": 5489742,
+  "Thread": 1195760,
+  "Code": 16011896,
+  "GC": 1993898,
+  "Compiler": 3410360,
+  "Internal": 339996,
+  "Other": 20480,
+  "Symbol": 11084700,
+  "Native Memory Tracking": 2116872,
+  "Arena Chunk": 416368,
+  "Tracing": 257,
+  "Statistics": 128,
+  "Arguments": 135,
+  "Module": 73592,
+  "Safepoint": 8192,
+  "Synchronization": 73288,
+  "Serviceability": 17152,
+  "Metaspace": 30993616,
+  "String Deduplication": 680,
+  "Object Monitors": 13312,
+  "Unknown": 0
+ },
+ "heap_bytes": 603979776,
+ "total_bytes": 690470280
+}

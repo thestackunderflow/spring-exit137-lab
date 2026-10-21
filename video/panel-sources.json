@@ -1,0 +1,66 @@
+{
+ "ch0-terminal.txt": {
+  "sources": [
+   "evidence/runs/r-oom/compose-up.txt",
+   "evidence/runs/r-oom/ps.txt",
+   "evidence/runs/r-oom/inspect.json"
+  ],
+  "max_cells": 60
+ },
+ "hook-callout.txt": {
+  "sources": [
+   "evidence/runs/r-oom/stderr.txt"
+  ],
+  "max_cells": 60
+ },
+ "ch2-inspect-state.txt": {
+  "sources": [
+   "evidence/runs/r-oom/inspect.json"
+  ],
+  "max_cells": 60
+ },
+ "ch3-who-killed.txt": {
+  "sources": [
+   "out/who-killed.txt"
+  ],
+  "max_cells": 60
+ },
+ "ch4-nmt-table.txt": {
+  "sources": [
+   "out/nmt-table.txt"
+  ],
+  "max_cells": 60
+ },
+ "ch5-showsettings.txt": {
+  "sources": [
+   "evidence/t4/b-system.txt",
+   "evidence/t4/b-flags.txt"
+  ],
+  "max_cells": 60
+ },
+ "ch5-java-oome.txt": {
+  "sources": [
+   "evidence/runs/j/stdout.txt"
+  ],
+  "max_cells": 60
+ },
+ "ch6-proof.txt": {
+  "sources": [
+   "evidence/runs/r-proof/oha.txt",
+   "evidence/runs/r-proof/state-after.pretty.json"
+  ],
+  "max_cells": 60
+ },
+ "ch6-sweep-table.txt": {
+  "sources": [
+   "out/sweep-table.txt"
+  ],
+  "max_cells": 60
+ },
+ "description-dmesg.txt": {
+  "sources": [
+   "evidence/t10/dmesg-oom.txt"
+  ],
+  "max_cells": 60
+ }
+}

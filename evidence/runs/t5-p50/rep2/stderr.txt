@@ -1,0 +1,1 @@
+2026-10-21T04:09:10.376927744Z Picked up JAVA_TOOL_OPTIONS: -XX:MaxRAMPercentage=50 -XX:InitialRAMPercentage=50 -XX:+AlwaysPreTouch -XX:NativeMemoryTracking=summary -XX:+UnlockDiagnosticVMOptions -XX:+PrintNMTStatistics

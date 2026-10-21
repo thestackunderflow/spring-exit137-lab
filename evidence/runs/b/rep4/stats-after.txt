@@ -1,0 +1,8 @@
+utc=2026-10-21T04:15:37Z free_ram_gb=10.7
+hikari-lab-oha-run-39345b07d750	0.10%	6.504MiB / 13.65GiB
+hl-app	2.70%	339.1MiB / 1.5GiB
+hikari-lab-db-1	4.00%	106.5MiB / 13.65GiB
+hikari-lab-stub-1	0.40%	166.2MiB / 13.65GiB
+mcp-canvas-mcp-server-1	0.24%	107.8MiB / 8GiB
+mcp-canvas-web-1	0.00%	8.598MiB / 13.65GiB
+reframe	0.27%	35.45MiB / 13.65GiB

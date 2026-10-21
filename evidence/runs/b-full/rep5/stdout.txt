@@ -1,0 +1,126 @@
+2026-10-21T04:11:05.629414571Z 
+2026-10-21T04:11:05.629434940Z   .   ____          _            __ _ _
+2026-10-21T04:11:05.629436523Z  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2026-10-21T04:11:05.629437506Z ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2026-10-21T04:11:05.629438369Z  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2026-10-21T04:11:05.629439184Z   '  |____| .__|_| |_|_| |_\__, | / / / /
+2026-10-21T04:11:05.629439968Z  =========|_|==============|___/=/_/_/_/
+2026-10-21T04:11:05.629440755Z 
+2026-10-21T04:11:05.629581887Z  :: Spring Boot ::                (v4.1.1)
+2026-10-21T04:11:05.629584632Z 
+2026-10-21T04:11:05.674879489Z 2026-10-21T04:11:05.673Z  INFO 1 --- [           main] lab.LabApplication                       : Starting LabApplication v1.0 using Java 21.0.12.1 with PID 1 (/app.jar started by root in /)
+2026-10-21T04:11:05.675436298Z 2026-10-21T04:11:05.675Z  INFO 1 --- [           main] lab.LabApplication                       : No active profile set, falling back to 1 default profile: "default"
+2026-10-21T04:11:06.136222453Z 2026-10-21T04:11:06.135Z  INFO 1 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-21T04:11:06.145115858Z 2026-10-21T04:11:06.144Z  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-21T04:11:06.145356788Z 2026-10-21T04:11:06.145Z  INFO 1 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-21T04:11:06.163236989Z 2026-10-21T04:11:06.162Z  INFO 1 --- [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 458 ms
+2026-10-21T04:11:06.210594806Z LAB: cgroup 663 MiB · heap used 54 MiB · old 8 MiB
+2026-10-21T04:11:06.378388788Z 2026-10-21T04:11:06.378Z  INFO 1 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-21T04:11:06.382023636Z 2026-10-21T04:11:06.381Z  INFO 1 --- [           main] lab.LabApplication                       : Started LabApplication in 0.945 seconds (process running for 1.338)
+2026-10-21T04:11:07.037815812Z 2026-10-21T04:11:07.037Z  INFO 1 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-21T04:11:07.037844514Z 2026-10-21T04:11:07.037Z  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-21T04:11:07.038623215Z 2026-10-21T04:11:07.038Z  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-10-21T04:11:07.210927493Z LAB: cgroup 679 MiB · heap used 93 MiB · old 8 MiB
+2026-10-21T04:11:08.215208281Z LAB: cgroup 684 MiB · heap used 283 MiB · old 261 MiB
+2026-10-21T04:11:09.215534589Z LAB: cgroup 683 MiB · heap used 320 MiB · old 209 MiB
+2026-10-21T04:11:10.215772743Z LAB: cgroup 683 MiB · heap used 321 MiB · old 209 MiB
+2026-10-21T04:11:10.713981480Z 2026-10-21T04:11:10.713Z  INFO 1 --- [ionShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-21T04:11:10.716632835Z 2026-10-21T04:11:10.716Z  INFO 1 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-21T04:11:10.724025155Z 
+2026-10-21T04:11:10.724036871Z Native Memory Tracking:
+2026-10-21T04:11:10.724038209Z 
+2026-10-21T04:11:10.724039268Z Total: reserved=2052177110, committed=689925334
+2026-10-21T04:11:10.724040279Z        malloc: 20241622 #129382
+2026-10-21T04:11:10.724041214Z        mmap:   reserved=2031935488, committed=669683712
+2026-10-21T04:11:10.724042179Z 
+2026-10-21T04:11:10.724043088Z -                 Java Heap (reserved=603979776, committed=603979776)
+2026-10-21T04:11:10.724044085Z                             (mmap: reserved=603979776, committed=603979776, at peak) 
+2026-10-21T04:11:10.724045102Z  
+2026-10-21T04:11:10.724046005Z -                     Class (reserved=1074634918, committed=5480614)
+2026-10-21T04:11:10.724047115Z                             (classes #7965)
+2026-10-21T04:11:10.724048131Z                             (  instance classes #7394, array classes #571)
+2026-10-21T04:11:10.724049106Z                             (malloc=893094 #22784) (peak=893766 #22639) 
+2026-10-21T04:11:10.724050060Z                             (mmap: reserved=1073741824, committed=4587520, at peak) 
+2026-10-21T04:11:10.724051077Z                             (  Metadata:   )
+2026-10-21T04:11:10.724052078Z                             (    reserved=67108864, committed=30670848)
+2026-10-21T04:11:10.724053025Z                             (    used=30346808)
+2026-10-21T04:11:10.724053954Z                             (    waste=324040 =1.06%)
+2026-10-21T04:11:10.724054979Z                             (  Class space:)
+2026-10-21T04:11:10.724055890Z                             (    reserved=1073741824, committed=4587520)
+2026-10-21T04:11:10.724056866Z                             (    used=4264920)
+2026-10-21T04:11:10.724057887Z                             (    waste=322600 =7.03%)
+2026-10-21T04:11:10.724058868Z  
+2026-10-21T04:11:10.724059717Z -                    Thread (reserved=14728944, committed=1179376)
+2026-10-21T04:11:10.724060652Z                             (threads #13)
+2026-10-21T04:11:10.724061586Z                             (stack: reserved=14680064, committed=1130496, peak=1130496)
+2026-10-21T04:11:10.724062667Z                             (malloc=32848 #95) (peak=78816 #202) 
+2026-10-21T04:11:10.724063651Z                             (arena=16032 #28) (peak=340912 #24)
+2026-10-21T04:11:10.724069451Z  
+2026-10-21T04:11:10.724070167Z -                      Code (reserved=254757072, committed=15198416)
+2026-10-21T04:11:10.724070926Z                             (malloc=1128656 #6208) (peak=1128704 #6209) 
+2026-10-21T04:11:10.724071650Z                             (mmap: reserved=253628416, committed=14069760, at peak) 
+2026-10-21T04:11:10.724072394Z                             (arena=0 #0) (peak=33712 #1)
+2026-10-21T04:11:10.724073114Z  
+2026-10-21T04:11:10.724073824Z -                        GC (reserved=1997994, committed=1993898)
+2026-10-21T04:11:10.724074552Z                             (malloc=23722 #80) (peak=154562 #114) 
+2026-10-21T04:11:10.724075267Z                             (mmap: reserved=1974272, committed=1970176, at peak) 
+2026-10-21T04:11:10.724075997Z  
+2026-10-21T04:11:10.724076639Z -                  Compiler (reserved=4049000, committed=4049000)
+2026-10-21T04:11:10.724077698Z                             (malloc=74024 #516) (peak=231304 #570) 
+2026-10-21T04:11:10.724078434Z                             (arena=3974976 #12) (peak=21358696 #13)
+2026-10-21T04:11:10.724079166Z  
+2026-10-21T04:11:10.724079931Z -                  Internal (reserved=338388, committed=338388)
+2026-10-21T04:11:10.724081066Z                             (malloc=301524 #7312) (peak=327223 #7431) 
+2026-10-21T04:11:10.724081861Z                             (mmap: reserved=36864, committed=36864, at peak) 
+2026-10-21T04:11:10.724082580Z  
+2026-10-21T04:11:10.724083272Z -                     Other (reserved=20480, committed=20480)
+2026-10-21T04:11:10.724084036Z                             (malloc=20480 #3) (peak=116736 #15) 
+2026-10-21T04:11:10.724084781Z  
+2026-10-21T04:11:10.724085425Z -                    Symbol (reserved=11083458, committed=11083458)
+2026-10-21T04:11:10.724086195Z                             (malloc=9700250 #88668) (peak=9702816 #88352) 
+2026-10-21T04:11:10.724086913Z                             (arena=1383208 #1) (at peak)
+2026-10-21T04:11:10.724087638Z  
+2026-10-21T04:11:10.724088267Z -    Native Memory Tracking (reserved=2108440, committed=2108440)
+2026-10-21T04:11:10.724088963Z                             (malloc=38328 #669) (peak=40696 #701) 
+2026-10-21T04:11:10.724089670Z                             (tracking overhead=2070112)
+2026-10-21T04:11:10.724090380Z  
+2026-10-21T04:11:10.724091037Z -        Shared class space (reserved=16777216, committed=13230080, readonly=0)
+2026-10-21T04:11:10.724091766Z                             (mmap: reserved=16777216, committed=13230080, peak=13484032) 
+2026-10-21T04:11:10.724092500Z  
+2026-10-21T04:11:10.724093155Z -               Arena Chunk (reserved=220984, committed=220984)
+2026-10-21T04:11:10.724093867Z                             (malloc=220984 #201) (peak=23459520 #561) 
+2026-10-21T04:11:10.724095513Z  
+2026-10-21T04:11:10.724096190Z -                   Tracing (reserved=257, committed=257)
+2026-10-21T04:11:10.724096924Z                             (malloc=257 #5) (at peak) 
+2026-10-21T04:11:10.724097624Z  
+2026-10-21T04:11:10.724098281Z -                Statistics (reserved=128, committed=128)
+2026-10-21T04:11:10.724099017Z                             (malloc=128 #2) (at peak) 
+2026-10-21T04:11:10.724099716Z  
+2026-10-21T04:11:10.724100356Z -                 Arguments (reserved=135, committed=135)
+2026-10-21T04:11:10.724101057Z                             (malloc=135 #5) (at peak) 
+2026-10-21T04:11:10.724101764Z  
+2026-10-21T04:11:10.724102397Z -                    Module (reserved=73592, committed=73592)
+2026-10-21T04:11:10.724103108Z                             (malloc=73592 #1954) (at peak) 
+2026-10-21T04:11:10.724103830Z  
+2026-10-21T04:11:10.724104464Z -                 Safepoint (reserved=8192, committed=8192)
+2026-10-21T04:11:10.724105171Z                             (mmap: reserved=8192, committed=8192, at peak) 
+2026-10-21T04:11:10.724105889Z  
+2026-10-21T04:11:10.724106529Z -           Synchronization (reserved=73712, committed=73712)
+2026-10-21T04:11:10.724107237Z                             (malloc=73712 #693) (peak=75480 #710) 
+2026-10-21T04:11:10.724107958Z  
+2026-10-21T04:11:10.724108582Z -            Serviceability (reserved=17152, committed=17152)
+2026-10-21T04:11:10.724109299Z                             (malloc=17152 #9) (peak=17296 #11) 
+2026-10-21T04:11:10.724109999Z  
+2026-10-21T04:11:10.724110785Z -                 Metaspace (reserved=67292240, committed=30854224)
+2026-10-21T04:11:10.724111525Z                             (malloc=183376 #101) (peak=185504 #108) 
+2026-10-21T04:11:10.724112239Z                             (mmap: reserved=67108864, committed=30670848, at peak) 
+2026-10-21T04:11:10.724112969Z  
+2026-10-21T04:11:10.724113595Z -      String Deduplication (reserved=680, committed=680)
+2026-10-21T04:11:10.724114298Z                             (malloc=680 #8) (at peak) 
+2026-10-21T04:11:10.724115039Z  
+2026-10-21T04:11:10.724115673Z -           Object Monitors (reserved=14352, committed=14352)
+2026-10-21T04:11:10.724116371Z                             (malloc=14352 #69) (at peak) 
+2026-10-21T04:11:10.724117071Z  
+2026-10-21T04:11:10.724117693Z -                   Unknown (reserved=0, committed=0)
+2026-10-21T04:11:10.724118429Z                             (mmap: reserved=0, committed=0, peak=20480) 
+2026-10-21T04:11:10.724119174Z  

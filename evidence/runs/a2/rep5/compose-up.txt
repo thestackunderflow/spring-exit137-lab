@@ -1,0 +1,31 @@
+ Network exit137-net  Creating
+ Network exit137-net  Created
+ Container exit137-app-1  Creating
+ Container exit137-app-1  Created
+Attaching to app-1
+app-1  | Picked up JAVA_TOOL_OPTIONS: -Xms768m -Xmx768m
+app-1  | 
+app-1  |   .   ____          _            __ _ _
+app-1  |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+app-1  | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+app-1  |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+app-1  |   '  |____| .__|_| |_|_| |_\__, | / / / /
+app-1  |  =========|_|==============|___/=/_/_/_/
+app-1  | 
+app-1  |  :: Spring Boot ::                (v4.1.1)
+app-1  | 
+app-1  | 2026-10-21T04:03:49.010Z  INFO 1 --- [           main] lab.LabApplication                       : Starting LabApplication v1.0 using Java 21.0.12.1 with PID 1 (/app.jar started by root in /)
+app-1  | 2026-10-21T04:03:49.015Z  INFO 1 --- [           main] lab.LabApplication                       : No active profile set, falling back to 1 default profile: "default"
+app-1  | 2026-10-21T04:03:50.030Z  INFO 1 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+app-1  | 2026-10-21T04:03:50.051Z  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+app-1  | 2026-10-21T04:03:50.051Z  INFO 1 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+app-1  | 2026-10-21T04:03:50.086Z  INFO 1 --- [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 974 ms
+app-1  | LAB: cgroup 274 MiB · heap used 52 MiB · old 8 MiB
+app-1  | 2026-10-21T04:03:50.578Z  INFO 1 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+app-1  | 2026-10-21T04:03:50.584Z  INFO 1 --- [           main] lab.LabApplication                       : Started LabApplication in 2.168 seconds (process running for 2.753)
+app-1  | LAB: cgroup 278 MiB · heap used 88 MiB · old 8 MiB
+app-1  | 2026-10-21T04:03:51.711Z  INFO 1 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+app-1  | 2026-10-21T04:03:51.711Z  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+app-1  | 2026-10-21T04:03:51.713Z  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+app-1  | LAB: cgroup 282 MiB · heap used 96 MiB · old 8 MiB
+[Kapp-1 exited with code 137

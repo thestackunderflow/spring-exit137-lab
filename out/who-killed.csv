@@ -1,0 +1,4 @@
+who,exit,last log line,events,OOMKilled
+docker stop,137,Commencing graceful shutdown. Waiting for active requests to complete,"kill 15,9",false
+docker kill,137,Completed initialization in 1 ms,kill 9,false
+kernel OOM,137,Completed initialization in 1 ms,oom,true

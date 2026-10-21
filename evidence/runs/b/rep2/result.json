@@ -1,0 +1,116 @@
+{
+ "cell": "b",
+ "rep": "rep2",
+ "run_dir": "evidence/runs/b/rep2",
+ "mode": "load",
+ "session": "sweep-20261021T041152Z",
+ "compose_file": "compose.sweep.yaml",
+ "java_tool_options": "-XX:MaxRAMPercentage=75",
+ "exit_code": 143,
+ "oom_killed": false,
+ "started_at": "2026-10-21T04:14:54.266903564Z",
+ "finished_at": "2026-10-21T04:15:03.119418027Z",
+ "running_after_load": true,
+ "oom_killed_after_load": false,
+ "outcome": "survived",
+ "limit_reached": false,
+ "events": [
+  {
+   "action": "create",
+   "attrs": {},
+   "timeNano": 1792556094197947881
+  },
+  {
+   "action": "attach",
+   "attrs": {},
+   "timeNano": 1792556094216256445
+  },
+  {
+   "action": "start",
+   "attrs": {},
+   "timeNano": 1792556094388506104
+  },
+  {
+   "action": "kill",
+   "attrs": {
+    "signal": "15"
+   },
+   "timeNano": 1792556103083766928
+  },
+  {
+   "action": "stop",
+   "attrs": {},
+   "timeNano": 1792556103262659895
+  },
+  {
+   "action": "die",
+   "attrs": {
+    "exitCode": "143"
+   },
+   "timeNano": 1792556103269154270
+  }
+ ],
+ "oha": {
+  "status": {
+   "200": 2000
+  },
+  "errors": {},
+  "success_rate": "100.00%"
+ },
+ "oha_cmd": "oha -n 2000 -c 8 --no-tui http://app:8080/report?mb=4",
+ "mem_ready": {
+  "maxMemory": 583860224,
+  "totalMemory": 20799488,
+  "freeMemory": 2900672,
+  "memory.current": "140025856",
+  "memory.max": "805306368",
+  "memory.peak": "140025856",
+  "memory.swap.max": "0",
+  "memory.swap.current": "0",
+  "memory.events": {
+   "low": "0",
+   "high": "0",
+   "max": "0",
+   "oom": "0",
+   "oom_kill": "0",
+   "oom_group_kill": "0"
+  }
+ },
+ "mem_after": {
+  "maxMemory": 583860224,
+  "totalMemory": 276598784,
+  "freeMemory": 85127696,
+  "memory.current": "415297536",
+  "memory.max": "805306368",
+  "memory.peak": "472129536",
+  "memory.swap.max": "0",
+  "memory.swap.current": "0",
+  "memory.events": {
+   "low": "0",
+   "high": "0",
+   "max": "0",
+   "oom": "0",
+   "oom_kill": "0",
+   "oom_group_kill": "0"
+  }
+ },
+ "memory_peak_bytes": 472129536,
+ "probe_max_cgroup_mib": 398,
+ "probe_max_heap_used_mib": 182,
+ "probe_max_old_mib": 153,
+ "probe_samples": 8,
+ "java_oome_lines": 0,
+ "last_line": "2026-10-21T04:15:03.089Z  INFO 1 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete",
+ "last_line_ts": "2026-10-21T04:15:03.089359+00:00",
+ "tail_s": 0.03,
+ "compose_exit_line": "\u001b[Kapp-1 exited with code 143",
+ "ps_status": "exit137-app-1   Exited (143) Less than a second ago",
+ "stop_seconds": null,
+ "running_10s_after_oome": null,
+ "hold_status": null,
+ "free_ram_gb_before": 10.8,
+ "free_ram_gb_after": 10.7,
+ "other_cpu_pct_before": 3.2,
+ "other_cpu_pct_after": 5.5,
+ "disturbed": false
+}

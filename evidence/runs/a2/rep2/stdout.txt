@@ -1,0 +1,23 @@
+2026-10-21T03:39:00.621973212Z 
+2026-10-21T03:39:00.621998482Z   .   ____          _            __ _ _
+2026-10-21T03:39:00.622001350Z  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2026-10-21T03:39:00.622003351Z ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2026-10-21T03:39:00.622005031Z  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2026-10-21T03:39:00.622006526Z   '  |____| .__|_| |_|_| |_\__, | / / / /
+2026-10-21T03:39:00.622008028Z  =========|_|==============|___/=/_/_/_/
+2026-10-21T03:39:00.622009493Z 
+2026-10-21T03:39:00.622123752Z  :: Spring Boot ::                (v4.1.1)
+2026-10-21T03:39:00.622137332Z 
+2026-10-21T03:39:00.682326663Z 2026-10-21T03:39:00.680Z  INFO 1 --- [           main] lab.LabApplication                       : Starting LabApplication v1.0 using Java 21.0.12.1 with PID 1 (/app.jar started by root in /)
+2026-10-21T03:39:00.683087843Z 2026-10-21T03:39:00.682Z  INFO 1 --- [           main] lab.LabApplication                       : No active profile set, falling back to 1 default profile: "default"
+2026-10-21T03:39:01.418257173Z 2026-10-21T03:39:01.417Z  INFO 1 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-21T03:39:01.431705756Z 2026-10-21T03:39:01.431Z  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-21T03:39:01.431839809Z 2026-10-21T03:39:01.431Z  INFO 1 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-21T03:39:01.449343394Z 2026-10-21T03:39:01.449Z  INFO 1 --- [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 721 ms
+2026-10-21T03:39:01.507015521Z LAB: cgroup 245 MiB · heap used 58 MiB · old 8 MiB
+2026-10-21T03:39:01.693807034Z 2026-10-21T03:39:01.693Z  INFO 1 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-21T03:39:01.697669194Z 2026-10-21T03:39:01.697Z  INFO 1 --- [           main] lab.LabApplication                       : Started LabApplication in 1.328 seconds (process running for 1.591)
+2026-10-21T03:39:02.052908862Z 2026-10-21T03:39:02.052Z  INFO 1 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-21T03:39:02.053131640Z 2026-10-21T03:39:02.052Z  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-21T03:39:02.054259883Z 2026-10-21T03:39:02.054Z  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-10-21T03:39:02.507222415Z LAB: cgroup 258 MiB · heap used 102 MiB · old 8 MiB

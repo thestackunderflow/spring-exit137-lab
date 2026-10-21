@@ -1,0 +1,21 @@
+a85 rep1: exit 143 oom False outcome survived 2xx 2000 peak 483762176 probe_cg 409 tail 0.037 other_cpu 5.7/4.5 ram 11.1
+a85 rep2: exit 143 oom False outcome survived 2xx 2000 peak 493600768 probe_cg 415 tail 0.031 other_cpu 3.0/5.0 ram 11.0
+a85 rep3: exit 143 oom False outcome survived 2xx 2000 peak 454946816 probe_cg 387 tail 0.026 other_cpu 6.7/6.4 ram 11.0
+a85 rep4: exit 143 oom False outcome survived 2xx 2000 peak 487759872 probe_cg 411 tail 0.034 other_cpu 7.2/6.2 ram 10.8
+a85 rep5: exit 143 oom False outcome survived 2xx 2000 peak 471863296 probe_cg 392 tail 0.032 other_cpu 2.8/5.7 ram 10.8
+a85s rep1: exit 143 oom False outcome survived 2xx 2000 peak 786870272 probe_cg 747 tail 0.043 other_cpu 8.5/2.9 ram 10.9
+a85s rep2: exit 137 oom True outcome killed 2xx 1783 peak None probe_cg 759 tail 1.614 other_cpu 4.8/4.6 ram 10.8
+a85s rep3: exit 143 oom False outcome survived 2xx 2000 peak 789123072 probe_cg 750 tail 0.036 other_cpu 4.9/4.0 ram 10.7
+a85s rep4: exit 143 oom False outcome survived 2xx 2000 peak 781094912 probe_cg 743 tail 0.035 other_cpu 5.5/3.2 ram 10.7
+a85s rep5: exit 137 oom True outcome killed 2xx 1195 peak None probe_cg 733 tail 1.418 other_cpu 5.2/4.7 ram 10.5
+b rep1: exit 143 oom False outcome survived 2xx 2000 peak 454873088 probe_cg 379 tail 0.03 other_cpu 4.3/4.2 ram 10.7
+b rep2: exit 143 oom False outcome survived 2xx 2000 peak 472129536 probe_cg 398 tail 0.03 other_cpu 3.2/5.5 ram 10.8
+b rep3: exit 143 oom False outcome survived 2xx 2000 peak 477097984 probe_cg 400 tail 0.03 other_cpu 5.5/5.2 ram 10.7
+b rep4: exit 143 oom False outcome survived 2xx 2000 peak 477999104 probe_cg 404 tail 0.031 other_cpu 5.7/5.0 ram 10.7
+b rep5: exit 143 oom False outcome survived 2xx 2000 peak 472428544 probe_cg 395 tail 0.032 other_cpu 4.8/5.0 ram 10.7
+[04:15:58] C: DIRECT_MB=128
+c rep1: exit 137 oom True outcome killed 2xx None peak None probe_cg 679 tail 0.619 other_cpu 4.7/4.1 ram 10.7
+c rep2: exit 137 oom True outcome killed 2xx None peak None probe_cg 678 tail 0.709 other_cpu 6.5/7.2 ram 10.6
+c rep3: exit 137 oom True outcome killed 2xx None peak None probe_cg 678 tail 0.589 other_cpu 10.8/6.8 ram 10.7
+c rep4: exit 137 oom True outcome killed 2xx None peak None probe_cg 678 tail 0.625 other_cpu 6.0/7.1 ram 10.7
+c rep5: exit 137 oom True outcome killed 2xx None peak None probe_cg 678 tail 0.754 other_cpu 5.9/10.3 ram 10.6

@@ -1,0 +1,36 @@
+lab:spring-exit137-lab:jar:1.0
+\- org.springframework.boot:spring-boot-starter-webmvc:jar:4.1.1:compile
+   +- org.springframework.boot:spring-boot-starter:jar:4.1.1:compile
+   |  +- org.springframework.boot:spring-boot-starter-logging:jar:4.1.1:compile
+   |  |  +- ch.qos.logback:logback-classic:jar:1.5.38:compile
+   |  |  |  \- ch.qos.logback:logback-core:jar:1.5.38:compile
+   |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.25.5:compile
+   |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.25.5:compile
+   |  |  \- org.slf4j:jul-to-slf4j:jar:2.0.18:compile
+   |  +- org.springframework.boot:spring-boot-autoconfigure:jar:4.1.1:compile
+   |  +- jakarta.annotation:jakarta.annotation-api:jar:3.0.0:compile
+   |  \- org.yaml:snakeyaml:jar:2.6:compile
+   +- org.springframework.boot:spring-boot-starter-jackson:jar:4.1.1:compile
+   |  \- org.springframework.boot:spring-boot-jackson:jar:4.1.1:compile
+   |     \- tools.jackson.core:jackson-databind:jar:3.1.5:compile
+   |        +- com.fasterxml.jackson.core:jackson-annotations:jar:2.21:compile
+   |        \- tools.jackson.core:jackson-core:jar:3.1.5:compile
+   +- org.springframework.boot:spring-boot-starter-tomcat:jar:4.1.1:compile
+   |  +- org.springframework.boot:spring-boot-starter-tomcat-runtime:jar:4.1.1:compile
+   |  |  +- org.springframework.boot:spring-boot-web-server:jar:4.1.1:compile
+   |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:11.0.24:compile
+   |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:11.0.24:compile
+   |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:11.0.24:compile
+   |  \- org.springframework.boot:spring-boot-tomcat:jar:4.1.1:compile
+   +- org.springframework.boot:spring-boot-http-converter:jar:4.1.1:compile
+   |  +- org.springframework.boot:spring-boot:jar:4.1.1:compile
+   |  |  \- org.springframework:spring-context:jar:7.0.9:compile
+   |  \- org.springframework:spring-web:jar:7.0.9:compile
+   |     +- org.springframework:spring-beans:jar:7.0.9:compile
+   |     \- io.micrometer:micrometer-observation:jar:1.17.1:compile
+   |        \- io.micrometer:micrometer-commons:jar:1.17.1:compile
+   \- org.springframework.boot:spring-boot-webmvc:jar:4.1.1:compile
+      +- org.springframework.boot:spring-boot-servlet:jar:4.1.1:compile
+      \- org.springframework:spring-webmvc:jar:7.0.9:compile
+         +- org.springframework:spring-aop:jar:7.0.9:compile
+         \- org.springframework:spring-expression:jar:7.0.9:compile

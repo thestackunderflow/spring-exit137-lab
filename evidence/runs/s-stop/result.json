@@ -1,0 +1,104 @@
+{
+ "cell": "s-stop",
+ "rep": "s-stop",
+ "run_dir": "evidence/runs/s-stop",
+ "mode": "stop",
+ "session": "captures-20261021T041808Z",
+ "compose_file": "compose.fix.yaml",
+ "java_tool_options": "-XX:MaxRAMPercentage=75",
+ "exit_code": 137,
+ "oom_killed": false,
+ "started_at": "2026-10-21T04:18:27.289921975Z",
+ "finished_at": "2026-10-21T04:18:42.110948182Z",
+ "running_after_load": false,
+ "oom_killed_after_load": null,
+ "outcome": "other",
+ "limit_reached": false,
+ "events": [
+  {
+   "action": "create",
+   "attrs": {},
+   "timeNano": 1792556307209927317
+  },
+  {
+   "action": "attach",
+   "attrs": {},
+   "timeNano": 1792556307240295386
+  },
+  {
+   "action": "start",
+   "attrs": {},
+   "timeNano": 1792556307413919915
+  },
+  {
+   "action": "kill",
+   "attrs": {
+    "signal": "15"
+   },
+   "timeNano": 1792556312096414279
+  },
+  {
+   "action": "kill",
+   "attrs": {
+    "signal": "9"
+   },
+   "timeNano": 1792556322105298471
+  },
+  {
+   "action": "stop",
+   "attrs": {},
+   "timeNano": 1792556322306127381
+  },
+  {
+   "action": "die",
+   "attrs": {
+    "exitCode": "137"
+   },
+   "timeNano": 1792556322310140444
+  }
+ ],
+ "oha": {
+  "status": {},
+  "errors": {},
+  "success_rate": null
+ },
+ "oha_cmd": "docker stop exit137-app-1",
+ "mem_ready": {
+  "maxMemory": 583860224,
+  "totalMemory": 20799488,
+  "freeMemory": 3402608,
+  "memory.current": "141869056",
+  "memory.max": "805306368",
+  "memory.peak": "141869056",
+  "memory.swap.max": "0",
+  "memory.swap.current": "0",
+  "memory.events": {
+   "low": "0",
+   "high": "0",
+   "max": "0",
+   "oom": "0",
+   "oom_kill": "0",
+   "oom_group_kill": "0"
+  }
+ },
+ "mem_after": null,
+ "memory_peak_bytes": null,
+ "probe_max_cgroup_mib": null,
+ "probe_max_heap_used_mib": null,
+ "probe_max_old_mib": null,
+ "probe_samples": 0,
+ "java_oome_lines": 0,
+ "last_line": "2026-10-21T04:18:32.098Z  INFO 1 --- [ionShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete",
+ "last_line_ts": "2026-10-21T04:18:32.098932+00:00",
+ "tail_s": 10.012,
+ "compose_exit_line": "\u001b[Kapp-1 exited with code 137",
+ "ps_status": "exit137-app-1   Exited (137) Less than a second ago",
+ "stop_seconds": 10.33,
+ "running_10s_after_oome": null,
+ "hold_status": null,
+ "free_ram_gb_before": 10.5,
+ "free_ram_gb_after": 10.6,
+ "other_cpu_pct_before": 7.1,
+ "other_cpu_pct_after": 5.4,
+ "disturbed": false
+}

@@ -1,0 +1,9 @@
+cell   setting                      killed  peak MiB
+A      -Xmx768m                     0/5     484
+A2     -Xms768m -Xmx768m            5/5     limit reached
+A85    MaxRAMPercentage=85          0/5     470
+A85s   Max+InitialRAMPercentage=85  2/5     752
+D      (no flag)                    0/5     331
+B      MaxRAMPercentage=75          0/5     455
+B-full B, heap full from start      0/5     686
+C      B-full + 128 MiB direct      5/5     limit reached

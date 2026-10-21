@@ -1,0 +1,85 @@
+{
+ "cell": "j2",
+ "rep": "j2",
+ "run_dir": "evidence/runs/j2",
+ "mode": "j2",
+ "session": "captures-20261021T041808Z",
+ "compose_file": "compose.sweep.yaml",
+ "java_tool_options": "-Xmx128m -XX:+ExitOnOutOfMemoryError",
+ "exit_code": 3,
+ "oom_killed": false,
+ "started_at": "2026-10-21T04:19:45.115958594Z",
+ "finished_at": "2026-10-21T04:19:48.010835692Z",
+ "running_after_load": false,
+ "oom_killed_after_load": null,
+ "outcome": "java-oome",
+ "limit_reached": false,
+ "events": [
+  {
+   "action": "create",
+   "attrs": {},
+   "timeNano": 1792556385049435415
+  },
+  {
+   "action": "attach",
+   "attrs": {},
+   "timeNano": 1792556385067203451
+  },
+  {
+   "action": "start",
+   "attrs": {},
+   "timeNano": 1792556385225523045
+  },
+  {
+   "action": "die",
+   "attrs": {
+    "exitCode": "3"
+   },
+   "timeNano": 1792556388219406559
+  }
+ ],
+ "oha": {
+  "status": {},
+  "errors": {},
+  "success_rate": null
+ },
+ "oha_cmd": "curl http://app:8080/lab/hold?mb=200",
+ "mem_ready": {
+  "maxMemory": 129761280,
+  "totalMemory": 20799488,
+  "freeMemory": 3434016,
+  "memory.current": "140525568",
+  "memory.max": "805306368",
+  "memory.peak": "140525568",
+  "memory.swap.max": "0",
+  "memory.swap.current": "0",
+  "memory.events": {
+   "low": "0",
+   "high": "0",
+   "max": "0",
+   "oom": "0",
+   "oom_kill": "0",
+   "oom_group_kill": "0"
+  }
+ },
+ "mem_after": null,
+ "memory_peak_bytes": null,
+ "probe_max_cgroup_mib": null,
+ "probe_max_heap_used_mib": null,
+ "probe_max_old_mib": null,
+ "probe_samples": 0,
+ "java_oome_lines": 2,
+ "last_line": "Terminating due to java.lang.OutOfMemoryError: Java heap space",
+ "last_line_ts": "2026-10-21T04:19:48.001624+00:00",
+ "tail_s": 0.009,
+ "compose_exit_line": "\u001b[Kapp-1 exited with code 3",
+ "ps_status": "exit137-app-1   Exited (3) Less than a second ago",
+ "stop_seconds": null,
+ "running_10s_after_oome": null,
+ "hold_status": "000",
+ "free_ram_gb_before": 10.7,
+ "free_ram_gb_after": 10.7,
+ "other_cpu_pct_before": 5.7,
+ "other_cpu_pct_after": 4.8,
+ "disturbed": false
+}

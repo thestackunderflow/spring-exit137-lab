@@ -1,0 +1,1 @@
+logcap: r-proof: 24 lines, exit 143, clock docker-daemon, redacted lines 0 → C:\[labs]\spring-exit137-lab\evidence\replays\r-proof\run.jsonl

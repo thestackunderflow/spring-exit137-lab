@@ -1,0 +1,1 @@
+logcap: s-stop: 23 lines, exit 137, clock docker-daemon, redacted lines 0 → C:\[labs]\spring-exit137-lab\evidence\replays\s-stop\run.jsonl

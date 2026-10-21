@@ -1,0 +1,14 @@
+# A-swap: as compose.sweep.yaml but memswap_limit is NOT set (the swap trap, ACCURACY D2 / D5).
+name: exit137
+services:
+  app:
+    image: exit137-app:1.0
+    mem_limit: 768m
+    restart: "no"
+    environment:
+      JAVA_TOOL_OPTIONS: "${JAVA_OPTS}"
+      LAB_PROBE: "${LAB_PROBE:-false}"
+    networks: [lab]
+networks:
+  lab:
+    name: exit137-net

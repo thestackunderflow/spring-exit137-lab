@@ -1,0 +1,133 @@
+ Network exit137-net  Creating
+ Network exit137-net  Created
+ Container exit137-app-1  Creating
+ Container exit137-app-1  Created
+Attaching to app-1
+app-1  | Picked up JAVA_TOOL_OPTIONS: -XX:MaxRAMPercentage=75 -XX:InitialRAMPercentage=75 -XX:+AlwaysPreTouch -XX:NativeMemoryTracking=summary -XX:+UnlockDiagnosticVMOptions -XX:+PrintNMTStatistics
+app-1  | 
+app-1  |   .   ____          _            __ _ _
+app-1  |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+app-1  | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+app-1  |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+app-1  |   '  |____| .__|_| |_|_| |_\__, | / / / /
+app-1  |  =========|_|==============|___/=/_/_/_/
+app-1  | 
+app-1  |  :: Spring Boot ::                (v4.1.1)
+app-1  | 
+app-1  | 2026-10-21T04:10:06.173Z  INFO 1 --- [           main] lab.LabApplication                       : Starting LabApplication v1.0 using Java 21.0.12.1 with PID 1 (/app.jar started by root in /)
+app-1  | 2026-10-21T04:10:06.176Z  INFO 1 --- [           main] lab.LabApplication                       : No active profile set, falling back to 1 default profile: "default"
+app-1  | 2026-10-21T04:10:06.640Z  INFO 1 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+app-1  | 2026-10-21T04:10:06.649Z  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+app-1  | 2026-10-21T04:10:06.649Z  INFO 1 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+app-1  | 2026-10-21T04:10:06.665Z  INFO 1 --- [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 460 ms
+app-1  | LAB: cgroup 664 MiB · heap used 52 MiB · old 8 MiB
+app-1  | 2026-10-21T04:10:06.865Z  INFO 1 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+app-1  | 2026-10-21T04:10:06.868Z  INFO 1 --- [           main] lab.LabApplication                       : Started LabApplication in 0.942 seconds (process running for 1.349)
+app-1  | 2026-10-21T04:10:07.494Z  INFO 1 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+app-1  | 2026-10-21T04:10:07.494Z  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+app-1  | 2026-10-21T04:10:07.496Z  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+app-1  | LAB: cgroup 679 MiB · heap used 93 MiB · old 8 MiB
+app-1  | LAB: cgroup 683 MiB · heap used 295 MiB · old 269 MiB
+app-1  | LAB: cgroup 683 MiB · heap used 338 MiB · old 225 MiB
+app-1  | LAB: cgroup 682 MiB · heap used 338 MiB · old 225 MiB
+app-1  | 2026-10-21T04:10:10.984Z  INFO 1 --- [ionShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+app-1  | 2026-10-21T04:10:10.986Z  INFO 1 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+app-1  | 
+app-1  | Native Memory Tracking:
+app-1  | 
+app-1  | Total: reserved=2051845512, committed=690470280
+app-1  |        malloc: 19910024 #129888
+app-1  |        mmap:   reserved=2031935488, committed=670560256
+app-1  | 
+app-1  | -                 Java Heap (reserved=603979776, committed=603979776)
+app-1  |                             (mmap: reserved=603979776, committed=603979776, at peak) 
+app-1  |  
+app-1  | -                     Class (reserved=1074644046, committed=5489742)
+app-1  |                             (classes #7973)
+app-1  |                             (  instance classes #7398, array classes #575)
+app-1  |                             (malloc=902222 #23049) (peak=902894 #22904) 
+app-1  |                             (mmap: reserved=1073741824, committed=4587520, at peak) 
+app-1  |                             (  Metadata:   )
+app-1  |                             (    reserved=67108864, committed=30801920)
+app-1  |                             (    used=30423536)
+app-1  |                             (    waste=378384 =1.23%)
+app-1  |                             (  Class space:)
+app-1  |                             (    reserved=1073741824, committed=4587520)
+app-1  |                             (    used=4267864)
+app-1  |                             (    waste=319656 =6.97%)
+app-1  |  
+app-1  | -                    Thread (reserved=14728944, committed=1195760)
+app-1  |                             (threads #14)
+app-1  |                             (stack: reserved=14680064, committed=1146880, peak=1146880)
+app-1  |                             (malloc=32848 #95) (peak=78784 #201) 
+app-1  |                             (arena=16032 #28) (peak=340912 #24)
+app-1  |  
+app-1  | -                      Code (reserved=254841464, committed=16011896)
+app-1  |                             (malloc=1213048 #6330) (peak=1213096 #6331) 
+app-1  |                             (mmap: reserved=253628416, committed=14798848, at peak) 
+app-1  |                             (arena=0 #0) (peak=34696 #2)
+app-1  |  
+app-1  | -                        GC (reserved=1997994, committed=1993898)
+app-1  |                             (malloc=23722 #80) (peak=154562 #114) 
+app-1  |                             (mmap: reserved=1974272, committed=1970176, at peak) 
+app-1  |  
+app-1  | -                  Compiler (reserved=3410360, committed=3410360)
+app-1  |                             (malloc=73136 #518) (peak=187472 #557) 
+app-1  |                             (arena=3337224 #13) (peak=20208688 #13)
+app-1  |  
+app-1  | -                  Internal (reserved=339996, committed=339996)
+app-1  |                             (malloc=303132 #7382) (peak=327943 #7498) 
+app-1  |                             (mmap: reserved=36864, committed=36864, at peak) 
+app-1  |  
+app-1  | -                     Other (reserved=20480, committed=20480)
+app-1  |                             (malloc=20480 #3) (peak=118784 #16) 
+app-1  |  
+app-1  | -                    Symbol (reserved=11084700, committed=11084700)
+app-1  |                             (malloc=9701492 #88715) (peak=9702764 #88346) 
+app-1  |                             (arena=1383208 #1) (at peak)
+app-1  |  
+app-1  | -    Native Memory Tracking (reserved=2116872, committed=2116872)
+app-1  |                             (malloc=38664 #675) (peak=40976 #706) 
+app-1  |                             (tracking overhead=2078208)
+app-1  |  
+app-1  | -        Shared class space (reserved=16777216, committed=13230080, readonly=0)
+app-1  |                             (mmap: reserved=16777216, committed=13230080, peak=13484032) 
+app-1  |  
+app-1  | -               Arena Chunk (reserved=416368, committed=416368)
+app-1  |                             (malloc=416368 #201) (peak=21578576 #528) 
+app-1  |  
+app-1  | -                   Tracing (reserved=257, committed=257)
+app-1  |                             (malloc=257 #5) (at peak) 
+app-1  |  
+app-1  | -                Statistics (reserved=128, committed=128)
+app-1  |                             (malloc=128 #2) (at peak) 
+app-1  |  
+app-1  | -                 Arguments (reserved=135, committed=135)
+app-1  |                             (malloc=135 #5) (at peak) 
+app-1  |  
+app-1  | -                    Module (reserved=73592, committed=73592)
+app-1  |                             (malloc=73592 #1954) (at peak) 
+app-1  |  
+app-1  | -                 Safepoint (reserved=8192, committed=8192)
+app-1  |                             (mmap: reserved=8192, committed=8192, at peak) 
+app-1  |  
+app-1  | -           Synchronization (reserved=73288, committed=73288)
+app-1  |                             (malloc=73288 #694) (peak=75056 #711) 
+app-1  |  
+app-1  | -            Serviceability (reserved=17152, committed=17152)
+app-1  |                             (malloc=17152 #9) (peak=17296 #11) 
+app-1  |  
+app-1  | -                 Metaspace (reserved=67300560, committed=30993616)
+app-1  |                             (malloc=191696 #99) (at peak) 
+app-1  |                             (mmap: reserved=67108864, committed=30801920, at peak) 
+app-1  |  
+app-1  | -      String Deduplication (reserved=680, committed=680)
+app-1  |                             (malloc=680 #8) (at peak) 
+app-1  |  
+app-1  | -           Object Monitors (reserved=13312, committed=13312)
+app-1  |                             (malloc=13312 #64) (at peak) 
+app-1  |  
+app-1  | -                   Unknown (reserved=0, committed=0)
+app-1  |                             (mmap: reserved=0, committed=0, peak=20480) 
+app-1  |  
+[Kapp-1 exited with code 143

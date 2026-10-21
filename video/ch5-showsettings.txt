@@ -1,0 +1,4 @@
+Provider: cgroupv2
+Memory Limit: 768.00M
+size_t MaxHeapSize                              = 603979776
+bool UseSerialGC                              = true

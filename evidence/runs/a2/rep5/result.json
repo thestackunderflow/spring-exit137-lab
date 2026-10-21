@@ -1,0 +1,95 @@
+{
+ "cell": "a2",
+ "rep": "rep5",
+ "run_dir": "evidence/runs/a2/rep5",
+ "mode": "load",
+ "session": "calibrate-20261021T033413Z",
+ "compose_file": "compose.sweep.yaml",
+ "java_tool_options": "-Xms768m -Xmx768m",
+ "exit_code": 137,
+ "oom_killed": true,
+ "started_at": "2026-10-21T04:03:47.609500007Z",
+ "finished_at": "2026-10-21T04:03:53.246310019Z",
+ "running_after_load": false,
+ "oom_killed_after_load": null,
+ "outcome": "killed",
+ "limit_reached": true,
+ "events": [
+  {
+   "action": "create",
+   "attrs": {},
+   "timeNano": 1792555427506760573
+  },
+  {
+   "action": "attach",
+   "attrs": {},
+   "timeNano": 1792555427544601246
+  },
+  {
+   "action": "start",
+   "attrs": {},
+   "timeNano": 1792555427837387143
+  },
+  {
+   "action": "oom",
+   "attrs": {},
+   "timeNano": 1792555433240422240
+  },
+  {
+   "action": "die",
+   "attrs": {
+    "exitCode": "137"
+   },
+   "timeNano": 1792555433489989517
+  }
+ ],
+ "oha": {
+  "status": {
+   "200": 370
+  },
+  "errors": {
+   "Connection refused (os error 111)": 1622,
+   "connection closed before message completed": 8
+  },
+  "success_rate": "18.50%"
+ },
+ "oha_cmd": "oha -n 2000 -c 8 --no-tui http://app:8080/report?mb=4",
+ "mem_ready": {
+  "maxMemory": 778502144,
+  "totalMemory": 778502144,
+  "freeMemory": 680438800,
+  "memory.current": "295653376",
+  "memory.max": "805306368",
+  "memory.peak": "295653376",
+  "memory.swap.max": "0",
+  "memory.swap.current": "0",
+  "memory.events": {
+   "low": "0",
+   "high": "0",
+   "max": "0",
+   "oom": "0",
+   "oom_kill": "0",
+   "oom_group_kill": "0"
+  }
+ },
+ "mem_after": null,
+ "memory_peak_bytes": null,
+ "probe_max_cgroup_mib": 282,
+ "probe_max_heap_used_mib": 96,
+ "probe_max_old_mib": 8,
+ "probe_samples": 3,
+ "java_oome_lines": 0,
+ "last_line": "2026-10-21T04:03:51.713Z  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms",
+ "last_line_ts": "2026-10-21T04:03:51.713371+00:00",
+ "tail_s": 1.533,
+ "compose_exit_line": "\u001b[Kapp-1 exited with code 137",
+ "ps_status": "exit137-app-1   Exited (137) Less than a second ago",
+ "stop_seconds": null,
+ "running_10s_after_oome": null,
+ "hold_status": null,
+ "free_ram_gb_before": 4.8,
+ "free_ram_gb_after": 3.9,
+ "other_cpu_pct_before": 4.4,
+ "other_cpu_pct_after": 66.5,
+ "disturbed": false
+}

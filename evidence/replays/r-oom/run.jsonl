@@ -1,0 +1,22 @@
+{"seq":0,"stream":"stderr","tRecvMs":0,"text":"Picked up JAVA_TOOL_OPTIONS: -Xms768m -Xmx768m"}
+{"seq":1,"stream":"stdout","tRecvMs":541.776,"text":""}
+{"seq":2,"stream":"stdout","tRecvMs":541.795,"text":"  .   ____          _            __ _ _"}
+{"seq":3,"stream":"stdout","tRecvMs":541.796,"text":" /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\"}
+{"seq":4,"stream":"stdout","tRecvMs":541.797,"text":"( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\"}
+{"seq":5,"stream":"stdout","tRecvMs":541.798,"text":" \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )"}
+{"seq":6,"stream":"stdout","tRecvMs":541.799,"text":"  '  |____| .__|_| |_|_| |_\\__, | / / / /"}
+{"seq":7,"stream":"stdout","tRecvMs":541.8,"text":" =========|_|==============|___/=/_/_/_/"}
+{"seq":8,"stream":"stdout","tRecvMs":541.8,"text":""}
+{"seq":9,"stream":"stdout","tRecvMs":541.951,"text":" :: Spring Boot ::                (v4.1.1)"}
+{"seq":10,"stream":"stdout","tRecvMs":541.963,"text":""}
+{"seq":11,"stream":"stdout","tRecvMs":591.879,"text":"2026-10-21T04:18:13.539Z  INFO 1 --- [           main] lab.LabApplication                       : Starting LabApplication v1.0 using Java 21.0.12.1 with PID 1 (/app.jar started by root in /)"}
+{"seq":12,"stream":"stdout","tRecvMs":593.157,"text":"2026-10-21T04:18:13.542Z  INFO 1 --- [           main] lab.LabApplication                       : No active profile set, falling back to 1 default profile: \"default\""}
+{"seq":13,"stream":"stdout","tRecvMs":1225.96,"text":"2026-10-21T04:18:14.174Z  INFO 1 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)"}
+{"seq":14,"stream":"stdout","tRecvMs":1236.524,"text":"2026-10-21T04:18:14.185Z  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]"}
+{"seq":15,"stream":"stdout","tRecvMs":1236.547,"text":"2026-10-21T04:18:14.185Z  INFO 1 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]"}
+{"seq":16,"stream":"stdout","tRecvMs":1251.706,"text":"2026-10-21T04:18:14.200Z  INFO 1 --- [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 612 ms"}
+{"seq":17,"stream":"stdout","tRecvMs":1485.954,"text":"2026-10-21T04:18:14.435Z  INFO 1 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'"}
+{"seq":18,"stream":"stdout","tRecvMs":1492.175,"text":"2026-10-21T04:18:14.441Z  INFO 1 --- [           main] lab.LabApplication                       : Started LabApplication in 1.193 seconds (process running for 1.492)"}
+{"seq":19,"stream":"stdout","tRecvMs":2024.074,"text":"2026-10-21T04:18:14.973Z  INFO 1 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'"}
+{"seq":20,"stream":"stdout","tRecvMs":2024.134,"text":"2026-10-21T04:18:14.973Z  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'"}
+{"seq":21,"stream":"stdout","tRecvMs":2025.041,"text":"2026-10-21T04:18:14.974Z  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms"}

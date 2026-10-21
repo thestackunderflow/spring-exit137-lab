@@ -1,0 +1,6 @@
+NMT committed (B-full rep1)     MiB
+Java Heap                       576
+Metaspace                       30
+Code                            15
+everything else                 38
+non-heap, kernel-counted (max)  113

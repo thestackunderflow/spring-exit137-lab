@@ -1,0 +1,4 @@
+who          exit  last log line        events     OOMKilled
+docker stop  137   Commencing grace...  kill 15,9  false
+docker kill  137   Completed initia...  kill 9     false
+kernel OOM   137   Completed initia...  oom        true

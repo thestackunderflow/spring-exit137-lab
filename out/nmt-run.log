@@ -1,0 +1,8 @@
+b-full rep3: exit 143 oom False outcome survived 2xx 2000 peak 520318976 probe_cg 493 tail 0.022 other_cpu 5.8/5.2 ram 11.4
+[04:10:01] T5: candidate P=75
+b-full rep1: exit 143 oom False outcome survived 2xx 2000 peak 718696448 probe_cg 683 tail 0.027 other_cpu 5.2/4.2 ram 11.3
+b-full rep2: exit 143 oom False outcome survived 2xx 2000 peak 719876096 probe_cg 685 tail 0.026 other_cpu 7.6/4.7 ram 11.1
+b-full rep3: exit 143 oom False outcome survived 2xx 2000 peak 719499264 probe_cg 684 tail 0.03 other_cpu 5.7/9.4 ram 11.1
+b-full rep4: exit 143 oom False outcome survived 2xx 2000 peak 720138240 probe_cg 685 tail 0.028 other_cpu 3.6/5.0 ram 11.2
+b-full rep5: exit 143 oom False outcome survived 2xx 2000 peak 718864384 probe_cg 684 tail 0.027 other_cpu 11.0/5.2 ram 11.1
+[04:11:17] T5: P=75 holds (B-full 5/5)

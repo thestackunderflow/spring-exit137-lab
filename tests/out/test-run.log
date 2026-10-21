@@ -1,0 +1,43 @@
+JUnit summary: tests="7" errors="0" skipped="0" failures="0"
+test_disturbed_runs_were_rerun (test_lab.SweepTable.test_disturbed_runs_were_rerun) ... ok
+test_killed_cells_show_limit_reached_not_peak (test_lab.SweepTable.test_killed_cells_show_limit_reached_not_peak) ... ok
+test_sweep_csv_has_every_cell (test_lab.SweepTable.test_sweep_csv_has_every_cell) ... ok
+test_env_recorded (test_lab.T0Environment.test_env_recorded) ... ok
+test_images_resolve_to_pinned_digests (test_lab.T0Environment.test_images_resolve_to_pinned_digests) ... ok
+test_kernel_line_if_captured (test_lab.T10Dmesg.test_kernel_line_if_captured) ... ok
+test_j2_exits_3 (test_lab.T11JavaOome.test_j2_exits_3) ... ok
+test_j_logs_and_keeps_running (test_lab.T11JavaOome.test_j_logs_and_keeps_running) ... ok
+test_r_proof (test_lab.T12Proof.test_r_proof) ... ok
+test_cgroup_v2_and_limits_in_every_run (test_lab.T1Cgroup.test_cgroup_v2_and_limits_in_every_run) ... ok
+test_starter_webmvc_not_web (test_lab.T2Versions.test_starter_webmvc_not_web) ... ok
+test_startup_log_versions (test_lab.T2Versions.test_startup_log_versions) ... ok
+test_bug_cell_killed_5_of_5 (test_lab.T3Calibration.test_bug_cell_killed_5_of_5) ... ok
+test_d_outcome_recorded (test_lab.T3Calibration.test_d_outcome_recorded) ... ok
+test_gc_is_serial (test_lab.T3Calibration.test_gc_is_serial) ... ok
+test_load_env_frozen (test_lab.T3Calibration.test_load_env_frozen) ... ok
+test_container_seen (test_lab.T4Ergonomics.test_container_seen) ... ok
+test_max_heap_size_per_variant (test_lab.T4Ergonomics.test_max_heap_size_per_variant) ... ok
+test_serial_gc_selected (test_lab.T4Ergonomics.test_serial_gc_selected) ... ok
+test_b_full_survives_5_of_5_under_90_percent (test_lab.T5Fix.test_b_full_survives_5_of_5_under_90_percent) ... ok
+test_b_survives_5_of_5 (test_lab.T5Fix.test_b_survives_5_of_5) ... ok
+test_nmt_split_captured (test_lab.T5Fix.test_nmt_split_captured) ... ok
+test_p_from_kernel_counted_non_heap (test_lab.T5Fix.test_p_from_kernel_counted_non_heap) ... ok
+test_swap_cell_recorded (test_lab.T6Swap.test_swap_cell_recorded) ... ok
+test_r_oom (test_lab.T7CardIsTheFileTheRunRead.test_r_oom) ... ok
+test_r_proof (test_lab.T7CardIsTheFileTheRunRead.test_r_proof) ... ok
+test_r_oom (test_lab.T8WhoKilled.test_r_oom) ... ok
+test_s_kill (test_lab.T8WhoKilled.test_s_kill) ... ok
+test_s_stop (test_lab.T8WhoKilled.test_s_stop) ... ok
+test_who_killed_table (test_lab.T8WhoKilled.test_who_killed_table) ... ok
+test_tail_recorded (test_lab.T8bTail.test_tail_recorded) ... ok
+test_every_bug_rep_has_oom_and_no_kill (test_lab.T9EventOrder.test_every_bug_rep_has_oom_and_no_kill) ... ok
+test_oom_before_die (test_lab.T9EventOrder.test_oom_before_die) ... ok
+test_stop_order (test_lab.T9EventOrder.test_stop_order) ... ok
+test_bug_and_fix_differ_in_one_row_same_column (test_video_panels.T13ComposeCards.test_bug_and_fix_differ_in_one_row_same_column) ... ok
+test_every_panel_line_is_in_its_sources (test_video_panels.T14PanelsFromEvidence.test_every_panel_line_is_in_its_sources) ... ok
+test_rows_fit (test_video_panels.T14PanelsFromEvidence.test_rows_fit) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.750s
+
+OK
